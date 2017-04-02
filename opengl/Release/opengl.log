@@ -1,0 +1,12 @@
+﻿Build started 17/3/16 15:22:00.
+     1>Project "d:\我的文档\visual studio 2015\Projects\opengl\opengl\opengl.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VS\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(41): error C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\time.h(505): note: see declaration of 'localtime'
+     1>Done Building Project "d:\我的文档\visual studio 2015\Projects\opengl\opengl\opengl.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.62
